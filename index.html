@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        background-color: black;
+    }
+
+
+    h1 {
+        color: white;
+        text-align: center;
+        font-size: 2em;
+    }
+
+    h2 {
+        color: white;
+        text-align: right;
+    }
+
+
+    .container {
+        background-color: white;
+        color: black;
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        border: 10px solid rgb(150, 172, 190);
+        width: 32%;
+        height: 300px;
+        float: left;
+
+        display: none;
+    }
+
+    @media(max-width: 667px) {
+
+        .container {
+            display: block;
+            background-color: white;
+            color: black;
+            padding: 20px;
+            margin-top: 15px;
+            margin-right: 20px;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            border: 10px solid rgb(150, 172, 190);
+            width: 90%;
+            height: 90%;
+            float: none;
+        }
+    }
+
+    @media(max-width: 1024px) {
+
+        .container {
+            display: block;
+            background-color: white;
+        color: black;
+        padding: 20px;
+        margin-left: 20px;
+        margin-bottom: 30px;
+        border: 10px solid rgb(150, 172, 190);
+        width: 32%;
+        height: 300px;
+
+        }
+    }
+
+
+    @media(max-width: 5637px) {
+
+        .container {
+            display: block;
+
+        }
+    }
+
+
+    footer {
+        color: white;
+        text-align: center;
+        clear: left;
+        font-weight: bold;
+        font-size: large;
+    }
+
+    #one #two #three {
+        text-align: right;
+    }
+</style>
+
+<body>
+    <h1>Ivnaj Resturant</h1>
+    <h2>Our Menu</h2>
+    <img src="https://images.unsplash.com/photo-1464195643332-1f236b1c2255?" width="100%">
+
+    <div class="container">
+        <h3 id="one"> South Indian</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing eli</p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos aliquam nihil dolorum numquam veritatis
+        quae hic facere soluta. Excepturi consequuntur minima laborum quaerat incidunt, saepe necessitatibus neque culpa
+        aspernatur ad?
+    </div>
+
+    <div class="container">
+        <h3 id="two"> Chinees </h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit provident excepturi blanditiis molestias tenetur
+        cupiditate quae accusamus praesentium est porro necessitatibus odio perferendis, incidunt maxime cum maiores
+        quidem alias soluta.
+    </div>
+
+    <div class="container">
+        <h3 id="three"> Non Veg</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit?</p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos, exercitationem ea quidem autem soluta
+        accusantium esse repellat consequuntur corrupti facilis culpa ducimus minima iusto nam laboriosam pariatur amet
+        ut vero.
+    </div><hr>
+
+
+    <footer> copyright&copy; ivnaj Resturant 2021</footer>
+</body>
+
+</html>
